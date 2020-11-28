@@ -132,7 +132,7 @@ namespace listview
                 }
                 i++;
             }
-                                                                
+            lvNS.Items[tam].SubItems[0].Text = txtTK.Text;                                                    
             lvNS.Items[tam].SubItems[1].Text = txtTen.Text; //item là dòng, subitem là từng phần tử trong dòng 
             lvNS.Items[tam].SubItems[2].Text = dtpNgaySinh.Text;
             if(radNam.Checked)
